@@ -1,2 +1,4 @@
 flask
 pytest
+# and the test fails unless we install fixed werkzeug client
+-e git+https://github.com/tymofij/werkzeug.git@tim/local-redirect-client
